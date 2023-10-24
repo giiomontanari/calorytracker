@@ -7,7 +7,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.giovanni.calorytracker.navigation.navigate
-import com.plcoding.calorytracker.ui.theme.CaloryTrackerTheme
+import com.giovanni.calorytracker.ui.theme.CaloryTrackerTheme
 import com.plcoding.core.navigation.Route
 import com.plcoding.onboarding.welcome.WelcomeScreen
 

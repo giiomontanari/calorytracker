@@ -1,4 +1,4 @@
-package com.plcoding.calorytracker.ui.theme
+package com.giovanni.calorytracker.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -7,7 +7,6 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
-import com.plcoding.calorytrackerprep.ui.theme.Typography
 import com.plcoding.core_ui.Dimensions
 import com.plcoding.core_ui.LocalSpacing
 
