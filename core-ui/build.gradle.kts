@@ -6,9 +6,5 @@ plugins {
 apply(from = "$rootDir/compose-module.gradle")
 
 android {
-    namespace = "com.plcoding.onboarding_presentation"
-}
-
-dependencies {
-
+    namespace = "com.plcoding.core_ui"
 }

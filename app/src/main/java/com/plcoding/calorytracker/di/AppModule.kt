@@ -1,4 +1,4 @@
-package com.giovanni.calorytracker.di
+package com.plcoding.calorytracker.di
 
 import android.app.Application
 import android.content.Context.MODE_PRIVATE
@@ -19,14 +19,13 @@ object AppModule {
     @Singleton
     fun provideSharedPreferences(
         app: Application
-    ) : SharedPreferences {
+    ): SharedPreferences {
         return app.getSharedPreferences("shared_pref", MODE_PRIVATE)
     }
+
     @Provides
     @Singleton
-    fun providePreferences(
-        sharedPreferences: SharedPreferences
-    ) : Preferences {
+    fun providePreferences(sharedPreferences: SharedPreferences): Preferences {
         return DefaultPreferences(sharedPreferences)
     }
 }

@@ -16,7 +16,7 @@ interface Preferences {
     fun saveProteinRatio(ratio: Float)
     fun saveFatRatio(ratio: Float)
 
-    fun loadUserInfo() : UserInfo
+    fun loadUserInfo(): UserInfo
 
     companion object {
         const val KEY_GENDER = "gender"

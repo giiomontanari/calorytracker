@@ -6,7 +6,7 @@ plugins {
 }
 
 android {
-    namespace = "com.giovanni.calorytracker"
+    namespace = "com.plcoding.calorytracker"
     compileSdk = ProjectConfig.compileSdk
 
     defaultConfig {

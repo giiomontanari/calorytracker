@@ -1,4 +1,4 @@
-package com.giovanni.calorytracker.ui.theme
+package com.plcoding.calorytrackerprep.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle
