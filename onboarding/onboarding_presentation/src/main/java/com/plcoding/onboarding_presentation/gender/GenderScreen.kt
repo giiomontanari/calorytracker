@@ -18,6 +18,7 @@ fun GenderScreen(
                 is UiEvent.Navigate -> onNavigate(event)
                 else -> Unit
             }
+
         }
     }
     
